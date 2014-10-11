@@ -5,8 +5,8 @@ boolean tokenKill;
 float escala;
 
 void setup() {
-  //size(600, 600);
-  size(displayWidth, displayHeight);
+  size(600, 600);
+  //size(displayWidth, displayHeight);
 
   escala = width/200;
   misiles = new ArrayList<Misil>();
